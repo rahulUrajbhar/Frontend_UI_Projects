@@ -1,0 +1,373 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    padding: 20px 40px;
+}
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.searchInput{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: transparent;
+}
+.searchIcon{
+    padding: 5px;
+    cursor: pointer;
+}
+.limitedOffer{
+    color:aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.navBottom{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.menuItem{
+    margin-right: 100px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.slider{
+    background: url("https://cdn.wallpapersafari.com/54/73/i2C5um.jpg");
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 96%, 80% 100%, 81% 100%, 0 88%, 0% 20%);
+    overflow: hidden;
+}
+.sliderWapper{
+    display: flex;
+    width: 500vw;
+    transition: all 1s ease-in-out;
+}
+.sliderItem{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.sliderTitle{
+    position: absolute;
+    right: 3%;
+    bottom:35%;
+    font-size: 60px;
+    font-weight: 400;
+    color: aliceblue;
+    text-align: right;
+}
+.productPrice{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    font-size: 50px;
+    color: rgb(252, 250, 250);
+}
+.buyButton{
+    position: absolute;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: rgb(17, 16, 16);
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    top: 85%;
+    left: 90%;
+}
+.buyButton:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.slideImage{
+    z-index: 1;
+}
+.sliderBG{
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: aliceblue ;
+    justify-content: center;
+    position: absolute;
+}
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.featureIcone{
+    width: 50px;
+    height:50px;
+}
+.featureTitla{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(41, 35, 35);
+}
+.featuredecs{
+padding: 5px;   
+font-weight: 500;
+color: rgb(111, 110, 110);
+width: 65%;
+height: 100px;
+}
+.products{
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+    padding: 50px;
+    clip-path: polygon(80% 0, 80% 0%, 100% 8%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 10%);
+}
+.payment{
+    width: 500px;
+    height: 525px;
+    background-color: rgb(252, 254, 254);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.paymentTitle{
+    font-size: 20px;
+    padding: 10px 0px;
+    color: rgb(187, 185, 185);
+}
+.payInput{
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid #6a6767;
+}
+.cardIcons{
+    display: flex;
+}
+.cardIcon{
+    margin-right: 10px;
+}
+.cardinfo{
+    display: flex;
+    justify-content: space-between;
+}
+.sm{
+    width: 100px;
+}
+.paybutton{
+    position: absolute;
+    height: 50px;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    font-size: 20px;
+    background-color: green;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.closeTab{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background-color: #6a6767;
+    color: white;
+    padding: 2.5px 8px ;
+    font-size: 15px;
+    cursor: pointer;
+}
+.productImg{
+    width: 50%;
+    position: absolute;
+    top: 10%;
+}
+.productDetails{
+    position: absolute;
+    top: 25%;
+    right: 0;
+    width: 40%;
+    padding: 50px
+}
+.productName{
+    font-size: 300%;
+}
+.productprice{
+    padding-top: 20px;
+    font-size: 200%;
+}
+.productDics{
+    padding-top: 20px;
+    font-weight: 400;
+    color: rgb(82, 80, 80);
+}
+.colour{
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.colour:last-child{
+    background-color: rgb(2, 2, 115);
+}
+.productSizes,.productColour{
+    display: flex;
+    margin-top: 20px;
+}
+.size{
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin-right: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 510;
+}
+.productBuy{
+    float: right;
+    margin-top: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: rgb(15, 14, 14);
+    color: aliceblue;
+    border-radius: 10px;
+}
+.productBuy:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.gallery{
+    padding: 50px;
+    display: flex;
+}
+.galleryItem{
+    flex: 1;
+    padding: 35px;
+}
+.galleryImg{
+    width: 100%;
+}
+.galleryTittle{
+    text-align: center;
+    color: rgb(37, 36, 36);
+    font-size: 30px;
+}
+.newSeason{
+    padding: 0px 50px;
+    display: flex;
+}
+.newItem{
+    flex: 1;
+    background-color: black;
+    color: rgb(220, 229, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.newImg{
+    width: 100%;
+}
+.newTittleSm{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.newTittle{
+    padding: 20px;
+}
+.newButton{
+    padding: 12px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+}
+.footerLeft{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.fMenuTitle{
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+.fListItem{
+    list-style: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#a{
+    color: black;
+    text-decoration: none; 
+}
+.footerRight{
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.fInput{
+    padding: 5px;
+}
+.fButton{
+    padding: 5px 5px;
+    background-color: black;
+    color: wheat;
+    cursor: pointer;
+}
+.fIcon{
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+
