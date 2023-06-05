@@ -7,3 +7,4 @@
 // console.log(outputEquelsTo100(10,90));
 // console.log(outputEquelsTo100(110,80));
 
+
