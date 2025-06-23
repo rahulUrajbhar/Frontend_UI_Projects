@@ -1,0 +1,64 @@
+.Card {
+  border: none;
+  border-radius: 10px;
+  width: 320px;
+  height: 350px;
+  padding: 8px;
+  font-family: sans-serif;
+  font-size: 15px;
+  background-color: rgb(247, 248, 249);
+}
+.Card:hover {
+  background-color: rgba(248, 244, 247, 0.629);
+  cursor: pointer;
+  box-shadow: -5px 10px 32px -8px rgba(0, 0, 0, 0.68);
+}
+.productImg {
+  width: 100%;
+  height: 60%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.restaurantNameAndRating {
+  padding: 0px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.restaurantName {
+  font-family: system-ui;
+  width: 80%;
+  font-size: 18px;
+}
+.rating {
+  background-color: rgb(26, 165, 26);
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: aliceblue;
+}
+.CuisinePricing {
+  padding: 0px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cuisine {
+  width: 50%;
+  height: 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.openAtAndDistance {
+  padding: 5px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.openAt {
+  color: rgb(208, 29, 29);
+}
+.distance {
+  font-size: 13px;
+  font-weight: 600;
+}

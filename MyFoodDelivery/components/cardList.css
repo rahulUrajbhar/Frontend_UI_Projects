@@ -1,0 +1,58 @@
+.card-caintainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.topRestorent{
+    padding: 5px 10px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(6, 173, 6);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.AllRestorent{
+  padding: 4px 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgb(6, 173, 6);
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.BodyHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.InputSearchCantainer{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding-right: 15px;
+  }
+  .headerLeftInput {
+    border: none;
+    width: 100%;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 10px 15px;
+    margin: 8px 8px;
+    display: inline-block;
+    outline: none;
+  }
+  .topRestorent{
+    margin-top: 10px;
+  }
