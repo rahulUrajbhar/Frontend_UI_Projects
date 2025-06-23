@@ -1,0 +1,30 @@
+.root-container{
+    border: 2px solid rgb(158, 153, 153);
+    border-radius: 10px;
+    width: 30%;
+    height: auto;
+    background-color:rgba(216, 214, 214, 0.53)
+}
+#display{
+    width: 88%;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 10px;
+    justify-content: flex-end;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+.btn{
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(175, 34, 34);
+    color: #fbf3f3;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
