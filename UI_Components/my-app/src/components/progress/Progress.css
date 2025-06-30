@@ -1,0 +1,15 @@
+.outerBar {
+  width: 1200px;
+  border: 1px solid black;
+  margin: 0 auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.innerBar {
+  border-radius: 15px;
+  background-color: green;
+  text-align: right;
+  padding-right: 10px;
+  color: aliceblue;
+  transition: 100ms ease-in;
+}
