@@ -1,0 +1,61 @@
+/* General table styles */
+table {
+  margin: 20px auto;
+  max-width: 1200px;
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header styling */
+thead {
+  background-color: #8ee8de;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+}
+
+thead th {
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Table row styling */
+tbody tr {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+tbody tr:hover {
+  background-color: #e0f7fa;
+  cursor: pointer;
+}
+
+/* Table cell styling */
+td {
+  padding: 12px 15px;
+  text-align: left;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Add hover effect for table header and row */
+th:hover {
+  background-color: #75d3c3;
+}
+
+td {
+  font-size: 14px;
+  color: #666;
+}
+

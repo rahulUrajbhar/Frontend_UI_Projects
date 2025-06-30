@@ -1,5 +1,5 @@
 .outerBar {
-  width: 1200px;
+  max-width: 1200px;
   border: 1px solid black;
   margin: 0 auto;
   border-radius: 15px;
