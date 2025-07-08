@@ -3,7 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-h1{
-  max-width: 1200px;
-  margin: 10px auto;
+
+li{
+  list-style: none;
+  background-color: rgb(105, 101, 101);
+  color: whitesmoke;
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
