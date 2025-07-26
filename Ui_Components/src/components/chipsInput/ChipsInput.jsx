@@ -6,7 +6,7 @@ const ChipsInput = () => {
   const [InputData, setInputData] = useState([]);
   const handelChips = (e) => {
     if (e.key == "Enter" && input.trim() !== "") {
-      setInputData((prev) => [...prev, input]);
+      setInputData([...InputData, input]);
       setInput("");
     }
   };

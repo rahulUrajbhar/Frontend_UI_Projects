@@ -25,6 +25,9 @@ export default function Home() {
       <li>
         <Link href={"/progressbar"}>Progress Bar</Link>
       </li>
+      <li>
+        <Link href={"/useState"}>Use State</Link>
+      </li>
     </ul>
   );
 }
