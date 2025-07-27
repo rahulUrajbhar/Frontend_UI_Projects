@@ -3,7 +3,7 @@ import "./globals.css";
 import Link from "next/link";
 export default function Home() {
   return (
-    <ul>
+    <ul className="parent">
       <li>
         <Link href={"/otpinput"}>OTP Input</Link>
       </li>
@@ -27,6 +27,9 @@ export default function Home() {
       </li>
       <li>
         <Link href={"/useState"}>Use State</Link>
+      </li>
+      <li>
+        <Link href={"/calculater"}>Calculater</Link>
       </li>
     </ul>
   );
